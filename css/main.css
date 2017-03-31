@@ -34,6 +34,11 @@
 }
 /*scuba Area*/
 
+.intro-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 340px;
+}
 
 .parralax-text{
 position: relative;
