@@ -1203,7 +1203,7 @@ a.carousel-control span.fa {
 }
 
 .section {
-  padding: 50px 0;
+  padding: 0px 0;
   position: relative;
   background-color: #FFFFFF;
 }
@@ -1222,10 +1222,13 @@ a.carousel-control span.fa {
 }
 .section .title-area {
   max-width: 760px;
-  margin: 0 auto 70px;
+  margin: 0 auto 0px;
   display: block;
   padding: 0 15px;
   text-align: center;
+  /*height: 300px;*/
+  /*padding-top: 50px;
+  padding-bottom: 50px;*/
 }
 .section .title-area .description {
   font-size: 16px;

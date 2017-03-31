@@ -3,6 +3,37 @@
   width: 520px;
   height: 860px;
 }*/
+/*nav area*/
+.logo-small img{
+  height: 50px;
+}
+/*nav Area*/
+
+/*residential Area*/
+.residential-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /*height: 340px;*/
+}
+
+/*residential Area*/
+
+/*Commercial Area*/
+.commercial-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 340px;
+}
+/*Commercial Area*/
+
+/*scuba Area*/
+.scuba-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 340px;
+}
+/*scuba Area*/
+
 
 .parralax-text{
 position: relative;
@@ -50,7 +81,7 @@ z-index: 2
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   position:absolute;
-  bottom: 300px;
+  bottom: 400px;
   z-index: 10;
 }
 
@@ -64,5 +95,5 @@ z-index: 2
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 100vh;
+  /*height: 100vh;*/
 }
