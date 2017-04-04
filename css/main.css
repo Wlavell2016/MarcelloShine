@@ -46,6 +46,13 @@ margin-right:0px:
   height: 340px;
 }
 
+
+.bottom_container {
+  /*background: linear-gradient(141deg, #ff5665, #3477ff, #0054ff);*/
+  background: linear-gradient(140deg, #111010, #ce7575, #f22020);
+  animation: fadeBackground 10s ease infinite;
+  background-size: 600%;
+}
 .parralax-text{
 position: relative;
 z-index: 2;
@@ -58,10 +65,33 @@ z-index: 2;
 margin-bottom: 40px;
 /*padding-top: 140px*/
 padding-top:8.375em;
+background: linear-gradient(141deg, #ff5665, #3477ff, #0054ff);
+height: 100%;
+background-color: #3023ae;
+background-size: 200% 200%;
+animation: fadeBackground 30s ease infinite;
+}
 
+background-wrapper {
+    background: linear-gradient(141deg, #ff5665, #3477ff, #0054ff);
+    height: 100%;
+    background-color: #3023ae;
+    background-size: 200% 200%;
+    animation: fadeBackground 30s ease infinite;
 }
 /*scuba Area*/
 
+@keyframes fadeBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 83% 90%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
 
 .test  {
 z-index: 2
