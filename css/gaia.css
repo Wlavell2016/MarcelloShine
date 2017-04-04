@@ -352,7 +352,7 @@ body > .navbar-collapse a {
   border: 3px solid #c5a47e;
   border-radius: 50%;
   overflow: hidden;
-  max-width: 110px;
+  max-width: 210px;
   margin: 0 auto;
 }
 .avatar img {
@@ -1226,6 +1226,7 @@ a.carousel-control span.fa {
   display: block;
   padding: 0 15px;
   text-align: center;
+  padding-top:4.375em;
   /*height: 300px;*/
   /*padding-top: 50px;
   padding-bottom: 50px;*/
@@ -1291,6 +1292,7 @@ a.carousel-control span.fa {
 }
 .section-contact-form .title-area {
   margin-bottom: 15px;
+  padding-top: 4.375em;
 }
 .section-contact-form .social-buttons {
   padding: 20px 0 40px;
@@ -3238,7 +3240,7 @@ body.noscroll {
   position: relative;
   width: 100%;
   top: 0;
-  left: 0;
+  /*left: 0;*/
   height: 570px;
   overflow: hidden;
   display: block;
@@ -3452,7 +3454,7 @@ body.noscroll {
   position: relative;
   width: 100%;
   top: 0;
-  left: 0;
+  /*left: 0;*/
   height: 570px;
   overflow: hidden;
   display: block;
