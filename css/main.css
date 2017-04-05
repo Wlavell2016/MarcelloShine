@@ -153,13 +153,13 @@ z-index: 2
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   position:absolute;
-  bottom: 400px;
+  bottom: 20%;
   z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 100vh;
+  height: 60vh;
   background-color: #777;
 }
 .carousel-inner > .item > img {
