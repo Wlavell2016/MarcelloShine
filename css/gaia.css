@@ -3436,6 +3436,9 @@ body.noscroll {
 
 .section-contact-us .contact-container {
   position: relative;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .section-contact-us .contact-container .address-container {
