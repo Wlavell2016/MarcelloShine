@@ -170,17 +170,14 @@ z-index: 2
   height: 100%;
 }
 
-.map2 {
-  position: relative;
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 570px;
-  overflow: hidden;
-  display: block;
-}
-
 .title-area {
   padding-top:4.375em;
   padding-bottom:4.375em;
+}
+
+/* Declare heights because of positioning of img element */
+@media (min-width: 768px) {
+  .home-container {
+    height: 100vh;
+  }
 }

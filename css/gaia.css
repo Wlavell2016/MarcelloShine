@@ -1,4 +1,4 @@
-/*      light colors         */
+©/*      light colors         */
 html {
   font-size: 14px;
   -ms-text-size-adjust: 100%;
@@ -1220,6 +1220,8 @@ a.carousel-control span.fa {
 .section {
   position: relative;
 }
+
+
 .section .title-area {
   max-width: 760px;
   margin: 0 auto 0px;
@@ -3935,7 +3937,7 @@ body.noscroll {
     padding: 0 !important;
   }
   .section-header .parallax, .section-header .static-image {
-    height: 80vh;
+    height: 100vh;
   }
   .section-header .parallax:after, .section-header .static-image:after {
     height: 80vh;
@@ -3955,7 +3957,7 @@ body.noscroll {
     font-size: 1em;
   }
   .section-header .content h5 {
-    font-size: 1.125em;
+    font-size: 2.125em;
     margin-top: 50px;
   }
   .section-header .content .separator {
@@ -3979,6 +3981,10 @@ body.noscroll {
   }
 }
 @media (max-width: 768px) {
+.section .parallax.parallax-small .first-image .image {
+    background-image: url('../img/window_summer.jpg')!important;
+}
+
   h1 {
     font-size: 2em;
     line-height: 1.25;
@@ -4040,7 +4046,7 @@ body.noscroll {
   }
 
   .btn {
-    margin: 0 auto 15px;
+    margin: 6em auto 15px;
     float: none;
   }
 
