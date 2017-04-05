@@ -15,7 +15,7 @@ $('a[href*="#"]').click(function(e) {
 
     $('html, body').stop().animate({
         'scrollTop': $target.offset().top
-    }, 1200, 'swing', function () {
+    }, 2000, 'swing', function () {
         window.location.hash = target;
     });
 });
