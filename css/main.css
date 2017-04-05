@@ -13,23 +13,31 @@
 .residential-container {
   padding-top: 50px;
   padding-bottom: 50px;
-  /*height: 340px;*/
+  margin-bottom: 50px;
 }
 
 /*residential Area*/
 
 /*Commercial Area*/
 .commercial-container{
-  padding-top:8.375em;
+  padding-top: 50px;
   padding-bottom: 50px;
-  height: 340px;
+  margin-bottom: 50px;
 }
+
+.client-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
 /*Commercial Area*/
 
 /*scuba Area*/
 .scuba-container{
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-bottom: 50px;
   height: 340px;
 }
 
@@ -44,7 +52,16 @@ margin-right:0px:
   padding-top: 50px;
   padding-bottom: 50px;
   height: 340px;
+  margin-bottom: 50px;
 }
+
+.team-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+
 
 
 .bottom_container {
@@ -72,13 +89,13 @@ background-size: 200% 200%;
 animation: fadeBackground 30s ease infinite;
 }
 
-background-wrapper {
+/*background-wrapper {
     background: linear-gradient(141deg, #ff5665, #3477ff, #0054ff);
     height: 100%;
     background-color: #3023ae;
     background-size: 200% 200%;
     animation: fadeBackground 30s ease infinite;
-}
+}*/
 /*scuba Area*/
 
 @keyframes fadeBackground {
@@ -159,6 +176,7 @@ z-index: 2
   display: block;
 }
 
-.title-area{
-  padding-top:4.375em;
+.title-area {
+  /*padding-top:4.375em;
+  padding-bottom:4.375em;*/
 }
