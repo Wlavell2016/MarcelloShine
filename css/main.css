@@ -106,12 +106,11 @@ z-index: 2
 .white h3,
 .white h4,
 .white h5,
-.white p, {
-  color: white;
-
+.white p {
+  color: 	#FFFFFF;
 }
-/* carosel area */
 
+/* carosel area */
 .container_carousel {
   width: 100%;
   height:500px;
