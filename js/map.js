@@ -14,7 +14,8 @@ function init() {
         scrollwheel: false,
 
 
-        center: new google.maps.LatLng(21.170240, 72.831061),
+        center: new google.maps.LatLng(53.538823, -113.445823),
+
 
         styles: [
         {
@@ -209,12 +210,12 @@ function init() {
 
     var map = new google.maps.Map(mapElement, mapOptions);
 
-  
+
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(21.170240, 72.831061),
         map: map,
         title: 'Nileforest',
-        icon: 'img/map-marker.png'
+        // icon: 'img/map-marker.png'
 
     });
 

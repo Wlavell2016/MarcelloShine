@@ -15,7 +15,7 @@
 }
 
 .section-contact-1{
-	.form-control, 
+	.form-control,
 	.form-control:focus{
 		border-top: none;
 		border-left: none;
@@ -40,47 +40,47 @@
     }
 }
 
-.section-contact-3{
-	position: relative;
-	overflow: hidden;
-	margin-top: 30px;
-	padding-bottom: 0;
-
-	.contact-container{
-		position: relative;
-
-		.address-container{
-			position: absolute;
-			left: 0;
-			width: 40%;
-			height: 570px;
-			background-color: rgba(255,255,255,0.75);
-			z-index: 3;
-			padding: 20px 20px 20px 60px;
-
-			.address{
-				text-align: center;
-			}
-		}
-		
-		.map{
-			position: relative;
-			width: 100%;
-			top: 0;
-			left: 0;
-			height: 570px;
-			overflow: hidden;
-			display: block;
-			
-			.big-map{
-				height: 100%;
-				width: 100%;
-				display: block;
-							
-			}
-		}
-	}
-}
+// .section-contact-3{
+// 	position: relative;
+// 	overflow: hidden;
+// 	margin-top: 30px;
+// 	padding-bottom: 0;
+//
+// 	.contact-container{
+// 		position: relative;
+//
+// 		.address-container{
+// 			position: absolute;
+// 			left: 0;
+// 			width: 40%;
+// 			height: 570px;
+// 			background-color: rgba(255,255,255,0.75);
+// 			z-index: 3;
+// 			padding: 20px 20px 20px 60px;
+//
+// 			.address{
+// 				text-align: center;
+// 			}
+// 		}
+//
+// 		.map{
+// 			position: relative;
+// 			width: 100%;
+// 			top: 0;
+// 			left: 0;
+// 			height: 570px;
+// 			overflow: hidden;
+// 			display: block;
+//
+// 			.big-map{
+// 				height: 100%;
+// 				width: 100%;
+// 				display: block;
+//
+// 			}
+// 		}
+// 	}
+// }
 
 @media (min-width: 768px){
 	.section-contact-3{

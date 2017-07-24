@@ -9,31 +9,96 @@
 }
 /*nav Area*/
 
-/*residential Area*/
+p {
+    font-size: 1.65em;
+    color: #333
+}
+
+.medium p {
+    font-size: 1.65em;
+    color: #333
+}
+
+
+/*map2*/
+.map{
+    position: relative;
+    width: 100%;
+    top: 0;
+    /*left: 40vw;*/
+    height: 40vh;
+    overflow: hidden;
+    display: block;
+}
+
+.big-map{
+        height: 100%;
+        width: 100%;
+        display: block;
+
+}
+
+
+/*.carousel-inner > .item > img*/
+.section > .title-area > .description >  {
+    font-size: 1.65em;
+    color: #333
+    font-weight:bold;
+}
+
+@media (max-width: 768px) {
+p {
+    font-size: 1.4em!important;
+    color: #333
+}
+
+}
+
+/*.title-area2{
+    padding-top: 0!important;
+}*/
+
+.row {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+/*Containers*/
+.about-container{
+  background:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/residential/kitchen_large.jpg') center no-repeat;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+ -webkit-background-size: cover;
+  height: 100vh
+}
+
+.intro-container{
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
 .residential-container {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  padding-bottom: 5vh
 }
 
 .commercial-container{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-
+    padding-top: 5vh;
 }
 
 .client-container{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+
 }
 
 .scuba-container{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-  height: 340px;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
 }
 
 .container-scuba{
@@ -41,17 +106,9 @@ margin-left: 0px;
 margin-right:0px:
 }
 
-.intro-container{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  height: 340px;
-  margin-bottom: 50px;
-}
-
 .team-container{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .contact-container2{
@@ -86,11 +143,11 @@ z-index: 2;
 padding-top:6.375em;
 padding-bottom:6.375em;
 
-background: linear-gradient(141deg, #ff5665, #3477ff, #0054ff);
+/*background: linear-gradient(141deg, #ff5665, #3477ff, #0054ff);
 height: 100%;
 background-color: #3023ae;
 background-size: 200% 200%;
-animation: fadeBackground 30s ease infinite;
+animation: fadeBackground 30s ease infinite;*/
 }
 
 /*background-wrapper {
@@ -131,30 +188,57 @@ z-index: 2
   color: 	#FFFFFF;
 }
 
+.white p {
+    font-size: 16px;
+    font-weight:bold;
+}
 /* carosel area */
 .container_carousel {
   width: 100%;
-  height:500px;
+  height:100%;
   /*width:00vw*/
   padding-right: 0px;
   padding-left: 0px;
 }
 
-.row_corousel {
-  height:900px;
-}
 .container_nav {
   padding-left: 15px;
 }
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+  /*margin-bottom: 60px;*/
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   position:absolute;
-  bottom: 20%;
+  bottom: 15vh;
   z-index: 10;
+}
+
+
+.section-contact-3 {
+	position: relative;
+	overflow: hidden;
+	margin-top: 30px;
+	padding-bottom: 0;
+}
+
+.contact-container {
+		position: relative;
+}
+
+.address-container{
+			position: absolute;
+			left: 0;
+			width: 40%;
+			height: 570px;
+			background-color: rgba(255,255,255,0.75);
+			z-index: 3;
+			padding: 20px 20px 20px 60px;
+}
+
+.address {
+	text-align: center;
 }
 
 /* Declare heights because of positioning of img element */
@@ -175,6 +259,35 @@ z-index: 2
   padding-bottom:4.375em;
 }
 
+.title-area-contact {
+  padding-top:4.375em;
+}
+
+.row-intro {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.row1 {
+    padding-top: 5vh;
+}
+
+.row2 {
+    padding-bottom: 5vh;
+}
+
+.title-area .description p {
+color: 	#FFFFFF;
+}
+
+.title-area .description2 p {
+color: 	#FFFFFF;
+}
+
+.description2 p {
+    color:	#FFFFFF;
+
+}
 /* Declare heights because of positioning of img element */
 @media (min-width: 768px) {
   .home-container {

@@ -258,6 +258,7 @@ a:hover {
 p.description {
   font-size: 16px;
   color: #777777;
+  font-weight:bold;
 }
 
 a:hover, a:focus {
@@ -1235,13 +1236,18 @@ a.carousel-control span.fa {
 }
 .section .title-area .description {
   font-size: 16px;
-  color: #777777;
+  color: #333;
+}
+
+.section .title-area .description .white {
+  font-size: 16px;
+  color: white;
 }
 .section [class*="col-"] .title-area {
   padding: 0;
 }
 .section .text-area {
-  padding: 4.375em 0;
+  /*padding: 1.375em 0;*/
   position: relative;
   z-index: 3;
   display: block;
@@ -1253,11 +1259,11 @@ a.carousel-control span.fa {
 }
 .section .parallax,
 .section .static-image {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  display: block;
-  position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
 }
 .section .parallax > img,
 .section .parallax .filter > img,
@@ -1352,8 +1358,12 @@ a.carousel-control span.fa {
   display: block;
   z-index: 3;
   content: "";
-  opacity: .7;
+  opacity: .4;
   background: #333;
+}
+
+.filter:before .image {
+  height: 100vh;
 }
 .filter .title-area .description {
   color: #FFFFFF;
@@ -3284,13 +3294,13 @@ body.noscroll {
 /* HOME PAGE */
 .section .image {
   background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
-  z-index: 2;
-  position: absolute;
-  display: block;
+ background-position: center center;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 100vh;
+ z-index: 2;
+ position: absolute;
+ display: block;
 }
 
 .section-get-started,
@@ -3350,7 +3360,13 @@ body.noscroll {
 
 .section-get-started {
   padding: 0;
+  /*height: 100vh;*/
 }
+
+.section-get-started > .image {
+height: 100vh;
+}
+
 .section-get-started .container {
   margin: 15vh auto;
 }
@@ -3443,15 +3459,15 @@ body.noscroll {
   padding-bottom: 50px;
 }
 
-.section-contact-us .contact-container .address-container {
+/*.section-contact-us .contact-container .address-container {*/
   /*position: absolute;*/
-  left: 0;
+  /*left: 0;
   width: 100%;
   height: 570px;
   background-color: rgba(255, 255, 255, 0.99);
   z-index: 3;
   padding: 20px 20px 20px 60px;
-}
+}*/
 
 .section-contact-us .contact-container .address-container .address {
   text-align: center;
@@ -3981,7 +3997,7 @@ body.noscroll {
   }
 }
 @media (max-width: 768px) {
-.section .parallax.parallax-small .first-image .image {
+.section .parallax .mobileimage {
     background-image: url('../img/window_summer.jpg')!important;
 }
 
